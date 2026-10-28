@@ -1,0 +1,11 @@
+{
+  "name": "krono1450",
+  "private": true,
+  "scripts": {
+    "images:check": "node scripts/deduplicate-images.cjs",
+    "images:optimize": "node scripts/deduplicate-images.cjs --apply --compress"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5"
+  }
+}

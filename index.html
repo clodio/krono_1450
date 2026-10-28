@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau de Sélection</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="manifest" href="manifest.json">
+
+</head>
+<body>
+    <div class="menu">
+        <label for="scenario-selector">Choisissez un scénario :</label>
+        <select id="scenario-selector">
+            <option value="">Accueil</option>
+            <option value="le_rituel_1">Le rituel 1</option>
+            <option value="le_rituel_2">Le rituel 2</option>
+            <option value="le_rituel_3">Le rituel 3</option>
+            <option value="le_rituel_4">Le rituel 4</option>
+            <option value="le_rituel_5">Le rituel 5</option>
+        
+            <option value="le_sceptre_dor_1">Le sceptre d'or 1</option>
+            <option value="le_sceptre_dor_2">Le sceptre d'or 2</option>
+            <option value="le_sceptre_dor_3">Le sceptre d'or 3</option>
+            <option value="le_sceptre_dor_4">Le sceptre d'or 4</option>
+            <option value="le_sceptre_dor_5">Le sceptre d'or 5</option>
+
+            <option value="la_malediction_damarinta_1">La malédiction d'Amarinta 1</option>
+            <option value="la_malediction_damarinta_2">La malédiction d'Amarinta 2</option>
+            <option value="la_malediction_damarinta_3">La malédiction d'Amarinta 3</option>
+            <option value="la_malediction_damarinta_4">La malédiction d'Amarinta 4</option>
+            <option value="la_malediction_damarinta_5">La malédiction d'Amarinta5</option>
+
+        </select>
+        <div class="buttons" id="buttons-container">
+            <button onclick="showScenarioImage('scenario')">Description</button>
+            <button onclick="showScenarioImage('scenario_detail')">Détail</button>
+            <button onclick="showScenarioImage('setup')">Mise en place</button>
+            <button onclick="showSelectionTable()">Enquête</button>
+            <button onclick="showScenarioImage('solution')">Solution</button>
+        </div>
+    </div>
+    
+    <p id="welcome-message" class="welcome-message">Bienvenue dans ce jeu. Achetez le jeu pour pouvoir jouer à ces enquetes. Choisissez un scénario pour commencer.<br/>
+        <img class="help" src="./images/help.webp" alt="aide"/>
+    </p>
+    
+    <img id="scenario-image" class="scenario-image" src="" alt="Scenario Image">
+    
+    <div class="table-container" id="table-container">
+        <div class="table-container" id="table-container"></div>
+        <table>
+            <tbody>
+                <tr>
+                    <td><img id="time1" class="time"></td>
+                    <td><img id="character1" class="character"></td>
+                    <td><img id="place1" class="place"></td>
+                </tr>
+                <tr>
+                    <td><img id="time2" class="time"></td>
+                    <td><img id="character2" class="character"></td>
+                    <td><img id="place2" class="place"></td>
+                </tr>   
+                <tr>
+                    <td><img id="time3" class="time"></td>
+                    <td><img id="character3" class="character"></td>
+                    <td><img id="place3" class="place"></td>
+                </tr>    
+                <tr>
+                    <td><img id="time4" class="time"></td>
+                    <td><img id="character4" class="character"></td>
+                    <td><img id="place4" class="place"></td>
+                </tr>   
+                    <td><img id="time5" class="time"></td>
+                    <td><img id="character5" class="character"></td>
+                    <td><img id="place5" class="place"></td>
+                </tr>
+                <tr>
+                    <td><img id="time6" class="time"></td>
+                    <td><img id="character6" class="character"></td>
+                    <td><img id="place6" class="place"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <div class="overlay" id="overlay"></div>
+    
+    <script src="image-assets.js"></script>
+    <script>
+        function imageSource(logicalPath) {
+            return IMAGE_ASSETS[logicalPath] || logicalPath;
+        }
+
+        document.getElementById("scenario-selector").addEventListener("change", function() {
+            const scenario = this.value;
+            const buttonsContainer = document.getElementById("buttons-container");
+            const welcomeMessage = document.getElementById("welcome-message");
+            const scenarioImage = document.getElementById("scenario-image");
+            const tableContainer = document.getElementById("table-container");
+            
+            if (scenario) {
+                showScenarioImage('scenario');
+                buttonsContainer.style.display = "block";
+                welcomeMessage.style.display = "none";
+            } else {
+                buttonsContainer.style.display = "none";
+                welcomeMessage.style.display = "block";
+                scenarioImage.style.display = "none";
+                tableContainer.style.display = "none";
+            }
+        });
+        
+        function showScenarioImage(type) {
+            const scenario = document.getElementById("scenario-selector").value;
+            if (!scenario) return;
+            
+            const imageElement = document.getElementById("scenario-image");
+            imageElement.src = imageSource(`images/${scenario}/${type}.webp`);
+            imageElement.style.display = "block";
+            document.getElementById("table-container").style.display = "none";
+
+            for (let i = 1; i <= 6; i++) {
+                const valeurs = ["character", "place", "time"];
+                for (let j = 0; j < valeurs.length; j++) {
+                    const tablecontent = document.getElementById(`${valeurs[j]}${i}`);
+                    tablecontent.dataset.imagePath = `images/${scenario}/${valeurs[j]}${i}.webp`;
+                    tablecontent.src = imageSource(tablecontent.dataset.imagePath);
+                }
+            }
+        }
+        
+        function showSelectionTable() {
+            document.getElementById("scenario-image").style.display = "none";
+            document.getElementById("table-container").style.display = "flex";
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            let selectedTimeOrChar = null;
+            let selectedPlace = null;
+            let timeoutId = null;
+            const overlay = document.getElementById("overlay");
+            
+            function updateDisplay() {
+                overlay.innerHTML = "";
+                overlay.style.display = "none";
+                
+                if (selectedPlace && selectedTimeOrChar) {
+                    const placeImg = document.createElement("img");
+                    placeImg.src = imageSource(selectedPlace.dataset.imagePath.replace('.webp','-informations.webp'));
+                    placeImg.classList.add("place");
+                    overlay.appendChild(placeImg);
+                    
+                    const topImg = document.createElement("img");
+                    topImg.src = selectedTimeOrChar.src;
+                    overlay.appendChild(topImg);
+                    
+                    overlay.style.display = "flex";
+                }
+            }
+            
+            function clearSelection() {
+                if (selectedTimeOrChar) selectedTimeOrChar.classList.remove("selected");
+                if (selectedPlace) selectedPlace.classList.remove("selected");
+                selectedTimeOrChar = null;
+                selectedPlace = null;
+                updateDisplay();
+            }
+            
+            function resetTimeout() {
+                if (timeoutId) clearTimeout(timeoutId);
+                if (selectedPlace && selectedTimeOrChar) {
+                    timeoutId = setTimeout(() => {
+                        clearSelection();
+                    }, 5000);
+                }
+            }
+            
+            document.querySelectorAll(".time, .character").forEach(img => {
+                img.addEventListener("click", function() {
+                    if (selectedTimeOrChar === this) {
+                        this.classList.remove("selected");
+                        selectedTimeOrChar = null;
+                    } else {
+                        if (selectedTimeOrChar) {
+                            selectedTimeOrChar.classList.remove("selected");
+                        }
+                        this.classList.add("selected");
+                        selectedTimeOrChar = this;
+                    }
+                    updateDisplay();
+                    resetTimeout();
+                });
+            });
+
+            document.querySelectorAll(".place").forEach(img => {
+                img.addEventListener("click", function() {
+                    if (selectedPlace === this) {
+                        this.classList.remove("selected");
+                        selectedPlace = null;
+                    } else {
+                        if (selectedPlace) {
+                            selectedPlace.classList.remove("selected");
+                        }
+                        this.classList.add("selected");
+                        selectedPlace = this;
+                    }
+                    updateDisplay();
+                    resetTimeout();
+                });
+            });
+        });
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/sw.js')
+                .then((reg) => console.log('Service Worker enregistré', reg.scope))
+                .catch((err) => console.log('Erreur Service Worker', err));
+            });
+        }
+    </script>
+</body>
+</html>

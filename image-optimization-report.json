@@ -1,0 +1,2144 @@
+{
+  "mode": "apply",
+  "quality": 90,
+  "beforeFiles": 442,
+  "afterFiles": 148,
+  "logicalImages": 423,
+  "beforeBytes": 137702554,
+  "afterBytes": 45130550,
+  "savedBytes": 92572004,
+  "unused": [
+    "images/character1.webp",
+    "images/character2.webp",
+    "images/character3.webp",
+    "images/character4.webp",
+    "images/character5.webp",
+    "images/character6.webp",
+    "images/icon-192.jpg",
+    "images/place1.webp",
+    "images/place2.webp",
+    "images/place3.webp",
+    "images/place4.webp",
+    "images/place5.webp",
+    "images/place6.webp",
+    "images/time1.webp",
+    "images/time2.webp",
+    "images/time3.webp",
+    "images/time4.webp",
+    "images/time5.webp",
+    "images/time6.webp"
+  ],
+  "duplicates": [
+    {
+      "file": "images/la_malediction_damarinta_2/character1.webp",
+      "canonical": "images/la_malediction_damarinta_1/character1.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/character2.webp",
+      "canonical": "images/la_malediction_damarinta_1/character2.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/character3.webp",
+      "canonical": "images/la_malediction_damarinta_1/character3.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/character4.webp",
+      "canonical": "images/la_malediction_damarinta_1/character4.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/character5.webp",
+      "canonical": "images/la_malediction_damarinta_1/character5.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/character6.webp",
+      "canonical": "images/la_malediction_damarinta_1/character6.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/place1.webp",
+      "canonical": "images/la_malediction_damarinta_1/place1.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/place2.webp",
+      "canonical": "images/la_malediction_damarinta_1/place2.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/place3.webp",
+      "canonical": "images/la_malediction_damarinta_1/place3.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/place4.webp",
+      "canonical": "images/la_malediction_damarinta_1/place4.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/place5.webp",
+      "canonical": "images/la_malediction_damarinta_1/place5.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/place6.webp",
+      "canonical": "images/la_malediction_damarinta_1/place6.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/scenario_detail.webp",
+      "canonical": "images/la_malediction_damarinta_1/scenario_detail.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/scenario.webp",
+      "canonical": "images/la_malediction_damarinta_1/scenario.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/time1.webp",
+      "canonical": "images/la_malediction_damarinta_1/time1.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/time2.webp",
+      "canonical": "images/la_malediction_damarinta_1/time2.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/time3.webp",
+      "canonical": "images/la_malediction_damarinta_1/time3.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/time4.webp",
+      "canonical": "images/la_malediction_damarinta_1/time4.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/time5.webp",
+      "canonical": "images/la_malediction_damarinta_1/time5.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/time6.webp",
+      "canonical": "images/la_malediction_damarinta_1/time6.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/character1.webp",
+      "canonical": "images/la_malediction_damarinta_1/character1.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/character2.webp",
+      "canonical": "images/la_malediction_damarinta_1/character2.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/character3.webp",
+      "canonical": "images/la_malediction_damarinta_1/character3.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/character4.webp",
+      "canonical": "images/la_malediction_damarinta_1/character4.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/character5.webp",
+      "canonical": "images/la_malediction_damarinta_1/character5.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/character6.webp",
+      "canonical": "images/la_malediction_damarinta_1/character6.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/place1.webp",
+      "canonical": "images/la_malediction_damarinta_1/place1.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/place2.webp",
+      "canonical": "images/la_malediction_damarinta_1/place2.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/place3.webp",
+      "canonical": "images/la_malediction_damarinta_1/place3.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/place4.webp",
+      "canonical": "images/la_malediction_damarinta_1/place4.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/place5.webp",
+      "canonical": "images/la_malediction_damarinta_1/place5.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/place6.webp",
+      "canonical": "images/la_malediction_damarinta_1/place6.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/scenario_detail.webp",
+      "canonical": "images/la_malediction_damarinta_1/scenario_detail.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/scenario.webp",
+      "canonical": "images/la_malediction_damarinta_1/scenario.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/time1.webp",
+      "canonical": "images/la_malediction_damarinta_1/time1.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/time2.webp",
+      "canonical": "images/la_malediction_damarinta_1/time2.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/time3.webp",
+      "canonical": "images/la_malediction_damarinta_1/time3.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/time4.webp",
+      "canonical": "images/la_malediction_damarinta_1/time4.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/time5.webp",
+      "canonical": "images/la_malediction_damarinta_1/time5.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/time6.webp",
+      "canonical": "images/la_malediction_damarinta_1/time6.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/character1.webp",
+      "canonical": "images/la_malediction_damarinta_1/character1.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/character2.webp",
+      "canonical": "images/la_malediction_damarinta_1/character2.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/character3.webp",
+      "canonical": "images/la_malediction_damarinta_1/character3.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/character4.webp",
+      "canonical": "images/la_malediction_damarinta_1/character4.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/character5.webp",
+      "canonical": "images/la_malediction_damarinta_1/character5.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/character6.webp",
+      "canonical": "images/la_malediction_damarinta_1/character6.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/place1.webp",
+      "canonical": "images/la_malediction_damarinta_1/place1.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/place2.webp",
+      "canonical": "images/la_malediction_damarinta_1/place2.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/place3.webp",
+      "canonical": "images/la_malediction_damarinta_1/place3.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/place4.webp",
+      "canonical": "images/la_malediction_damarinta_1/place4.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/place5.webp",
+      "canonical": "images/la_malediction_damarinta_1/place5.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/place6.webp",
+      "canonical": "images/la_malediction_damarinta_1/place6.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/scenario_detail.webp",
+      "canonical": "images/la_malediction_damarinta_1/scenario_detail.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/scenario.webp",
+      "canonical": "images/la_malediction_damarinta_1/scenario.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/time1.webp",
+      "canonical": "images/la_malediction_damarinta_1/time1.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/time2.webp",
+      "canonical": "images/la_malediction_damarinta_1/time2.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/time3.webp",
+      "canonical": "images/la_malediction_damarinta_1/time3.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/time4.webp",
+      "canonical": "images/la_malediction_damarinta_1/time4.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/time5.webp",
+      "canonical": "images/la_malediction_damarinta_1/time5.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/time6.webp",
+      "canonical": "images/la_malediction_damarinta_1/time6.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/character1.webp",
+      "canonical": "images/la_malediction_damarinta_1/character1.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/character2.webp",
+      "canonical": "images/la_malediction_damarinta_1/character2.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/character3.webp",
+      "canonical": "images/la_malediction_damarinta_1/character3.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/character4.webp",
+      "canonical": "images/la_malediction_damarinta_1/character4.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/character5.webp",
+      "canonical": "images/la_malediction_damarinta_1/character5.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/character6.webp",
+      "canonical": "images/la_malediction_damarinta_1/character6.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/place1.webp",
+      "canonical": "images/la_malediction_damarinta_1/place1.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/place2.webp",
+      "canonical": "images/la_malediction_damarinta_1/place2.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/place3.webp",
+      "canonical": "images/la_malediction_damarinta_1/place3.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/place4.webp",
+      "canonical": "images/la_malediction_damarinta_1/place4.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/place5.webp",
+      "canonical": "images/la_malediction_damarinta_1/place5.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/place6.webp",
+      "canonical": "images/la_malediction_damarinta_1/place6.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/scenario_detail.webp",
+      "canonical": "images/la_malediction_damarinta_1/scenario_detail.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/scenario.webp",
+      "canonical": "images/la_malediction_damarinta_1/scenario.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/time1.webp",
+      "canonical": "images/la_malediction_damarinta_1/time1.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/time2.webp",
+      "canonical": "images/la_malediction_damarinta_1/time2.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/time3.webp",
+      "canonical": "images/la_malediction_damarinta_1/time3.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/time4.webp",
+      "canonical": "images/la_malediction_damarinta_1/time4.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/time5.webp",
+      "canonical": "images/la_malediction_damarinta_1/time5.webp"
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/time6.webp",
+      "canonical": "images/la_malediction_damarinta_1/time6.webp"
+    },
+    {
+      "file": "images/le_rituel_1/character1.webp",
+      "canonical": "images/la_malediction_damarinta_1/character1.webp"
+    },
+    {
+      "file": "images/le_rituel_1/character2.webp",
+      "canonical": "images/la_malediction_damarinta_1/character2.webp"
+    },
+    {
+      "file": "images/le_rituel_1/character3.webp",
+      "canonical": "images/la_malediction_damarinta_1/character3.webp"
+    },
+    {
+      "file": "images/le_rituel_1/character4.webp",
+      "canonical": "images/la_malediction_damarinta_1/character4.webp"
+    },
+    {
+      "file": "images/le_rituel_1/character5.webp",
+      "canonical": "images/la_malediction_damarinta_1/character5.webp"
+    },
+    {
+      "file": "images/le_rituel_1/character6.webp",
+      "canonical": "images/la_malediction_damarinta_1/character6.webp"
+    },
+    {
+      "file": "images/le_rituel_1/place1.webp",
+      "canonical": "images/la_malediction_damarinta_1/place1.webp"
+    },
+    {
+      "file": "images/le_rituel_1/place2.webp",
+      "canonical": "images/la_malediction_damarinta_1/place2.webp"
+    },
+    {
+      "file": "images/le_rituel_1/place3.webp",
+      "canonical": "images/la_malediction_damarinta_1/place3.webp"
+    },
+    {
+      "file": "images/le_rituel_1/place4.webp",
+      "canonical": "images/la_malediction_damarinta_1/place4.webp"
+    },
+    {
+      "file": "images/le_rituel_1/place5.webp",
+      "canonical": "images/la_malediction_damarinta_1/place5.webp"
+    },
+    {
+      "file": "images/le_rituel_1/place6.webp",
+      "canonical": "images/la_malediction_damarinta_1/place6.webp"
+    },
+    {
+      "file": "images/le_rituel_1/time1.webp",
+      "canonical": "images/la_malediction_damarinta_1/time1.webp"
+    },
+    {
+      "file": "images/le_rituel_1/time2.webp",
+      "canonical": "images/la_malediction_damarinta_1/time2.webp"
+    },
+    {
+      "file": "images/le_rituel_1/time3.webp",
+      "canonical": "images/la_malediction_damarinta_1/time3.webp"
+    },
+    {
+      "file": "images/le_rituel_1/time4.webp",
+      "canonical": "images/la_malediction_damarinta_1/time4.webp"
+    },
+    {
+      "file": "images/le_rituel_1/time5.webp",
+      "canonical": "images/la_malediction_damarinta_1/time5.webp"
+    },
+    {
+      "file": "images/le_rituel_1/time6.webp",
+      "canonical": "images/la_malediction_damarinta_1/time6.webp"
+    },
+    {
+      "file": "images/le_rituel_2/character1.webp",
+      "canonical": "images/la_malediction_damarinta_1/character1.webp"
+    },
+    {
+      "file": "images/le_rituel_2/character2.webp",
+      "canonical": "images/la_malediction_damarinta_1/character2.webp"
+    },
+    {
+      "file": "images/le_rituel_2/character3.webp",
+      "canonical": "images/la_malediction_damarinta_1/character3.webp"
+    },
+    {
+      "file": "images/le_rituel_2/character4.webp",
+      "canonical": "images/la_malediction_damarinta_1/character4.webp"
+    },
+    {
+      "file": "images/le_rituel_2/character5.webp",
+      "canonical": "images/la_malediction_damarinta_1/character5.webp"
+    },
+    {
+      "file": "images/le_rituel_2/character6.webp",
+      "canonical": "images/la_malediction_damarinta_1/character6.webp"
+    },
+    {
+      "file": "images/le_rituel_2/place1.webp",
+      "canonical": "images/la_malediction_damarinta_1/place1.webp"
+    },
+    {
+      "file": "images/le_rituel_2/place2.webp",
+      "canonical": "images/la_malediction_damarinta_1/place2.webp"
+    },
+    {
+      "file": "images/le_rituel_2/place3.webp",
+      "canonical": "images/la_malediction_damarinta_1/place3.webp"
+    },
+    {
+      "file": "images/le_rituel_2/place4.webp",
+      "canonical": "images/la_malediction_damarinta_1/place4.webp"
+    },
+    {
+      "file": "images/le_rituel_2/place5.webp",
+      "canonical": "images/la_malediction_damarinta_1/place5.webp"
+    },
+    {
+      "file": "images/le_rituel_2/place6.webp",
+      "canonical": "images/la_malediction_damarinta_1/place6.webp"
+    },
+    {
+      "file": "images/le_rituel_2/scenario_detail.webp",
+      "canonical": "images/le_rituel_1/scenario_detail.webp"
+    },
+    {
+      "file": "images/le_rituel_2/scenario.webp",
+      "canonical": "images/le_rituel_1/scenario.webp"
+    },
+    {
+      "file": "images/le_rituel_2/time1.webp",
+      "canonical": "images/la_malediction_damarinta_1/time1.webp"
+    },
+    {
+      "file": "images/le_rituel_2/time2.webp",
+      "canonical": "images/la_malediction_damarinta_1/time2.webp"
+    },
+    {
+      "file": "images/le_rituel_2/time3.webp",
+      "canonical": "images/la_malediction_damarinta_1/time3.webp"
+    },
+    {
+      "file": "images/le_rituel_2/time4.webp",
+      "canonical": "images/la_malediction_damarinta_1/time4.webp"
+    },
+    {
+      "file": "images/le_rituel_2/time6.webp",
+      "canonical": "images/la_malediction_damarinta_1/time6.webp"
+    },
+    {
+      "file": "images/le_rituel_3/character1.webp",
+      "canonical": "images/la_malediction_damarinta_1/character1.webp"
+    },
+    {
+      "file": "images/le_rituel_3/character2.webp",
+      "canonical": "images/la_malediction_damarinta_1/character2.webp"
+    },
+    {
+      "file": "images/le_rituel_3/character3.webp",
+      "canonical": "images/la_malediction_damarinta_1/character3.webp"
+    },
+    {
+      "file": "images/le_rituel_3/character4.webp",
+      "canonical": "images/la_malediction_damarinta_1/character4.webp"
+    },
+    {
+      "file": "images/le_rituel_3/character5.webp",
+      "canonical": "images/la_malediction_damarinta_1/character5.webp"
+    },
+    {
+      "file": "images/le_rituel_3/character6.webp",
+      "canonical": "images/la_malediction_damarinta_1/character6.webp"
+    },
+    {
+      "file": "images/le_rituel_3/place1.webp",
+      "canonical": "images/la_malediction_damarinta_1/place1.webp"
+    },
+    {
+      "file": "images/le_rituel_3/place2.webp",
+      "canonical": "images/la_malediction_damarinta_1/place2.webp"
+    },
+    {
+      "file": "images/le_rituel_3/place3.webp",
+      "canonical": "images/la_malediction_damarinta_1/place3.webp"
+    },
+    {
+      "file": "images/le_rituel_3/place4.webp",
+      "canonical": "images/la_malediction_damarinta_1/place4.webp"
+    },
+    {
+      "file": "images/le_rituel_3/place5.webp",
+      "canonical": "images/la_malediction_damarinta_1/place5.webp"
+    },
+    {
+      "file": "images/le_rituel_3/place6.webp",
+      "canonical": "images/la_malediction_damarinta_1/place6.webp"
+    },
+    {
+      "file": "images/le_rituel_3/scenario_detail.webp",
+      "canonical": "images/le_rituel_1/scenario_detail.webp"
+    },
+    {
+      "file": "images/le_rituel_3/scenario.webp",
+      "canonical": "images/le_rituel_1/scenario.webp"
+    },
+    {
+      "file": "images/le_rituel_3/time1.webp",
+      "canonical": "images/la_malediction_damarinta_1/time1.webp"
+    },
+    {
+      "file": "images/le_rituel_3/time2.webp",
+      "canonical": "images/la_malediction_damarinta_1/time2.webp"
+    },
+    {
+      "file": "images/le_rituel_3/time3.webp",
+      "canonical": "images/la_malediction_damarinta_1/time3.webp"
+    },
+    {
+      "file": "images/le_rituel_3/time4.webp",
+      "canonical": "images/la_malediction_damarinta_1/time4.webp"
+    },
+    {
+      "file": "images/le_rituel_3/time5.webp",
+      "canonical": "images/le_rituel_2/time5.webp"
+    },
+    {
+      "file": "images/le_rituel_3/time6.webp",
+      "canonical": "images/la_malediction_damarinta_1/time6.webp"
+    },
+    {
+      "file": "images/le_rituel_4/character1.webp",
+      "canonical": "images/la_malediction_damarinta_1/character1.webp"
+    },
+    {
+      "file": "images/le_rituel_4/character2.webp",
+      "canonical": "images/la_malediction_damarinta_1/character2.webp"
+    },
+    {
+      "file": "images/le_rituel_4/character3.webp",
+      "canonical": "images/la_malediction_damarinta_1/character3.webp"
+    },
+    {
+      "file": "images/le_rituel_4/character4.webp",
+      "canonical": "images/la_malediction_damarinta_1/character4.webp"
+    },
+    {
+      "file": "images/le_rituel_4/character5.webp",
+      "canonical": "images/la_malediction_damarinta_1/character5.webp"
+    },
+    {
+      "file": "images/le_rituel_4/character6.webp",
+      "canonical": "images/la_malediction_damarinta_1/character6.webp"
+    },
+    {
+      "file": "images/le_rituel_4/place1.webp",
+      "canonical": "images/la_malediction_damarinta_1/place1.webp"
+    },
+    {
+      "file": "images/le_rituel_4/place2.webp",
+      "canonical": "images/la_malediction_damarinta_1/place2.webp"
+    },
+    {
+      "file": "images/le_rituel_4/place3.webp",
+      "canonical": "images/la_malediction_damarinta_1/place3.webp"
+    },
+    {
+      "file": "images/le_rituel_4/place4.webp",
+      "canonical": "images/la_malediction_damarinta_1/place4.webp"
+    },
+    {
+      "file": "images/le_rituel_4/place5.webp",
+      "canonical": "images/la_malediction_damarinta_1/place5.webp"
+    },
+    {
+      "file": "images/le_rituel_4/place6.webp",
+      "canonical": "images/la_malediction_damarinta_1/place6.webp"
+    },
+    {
+      "file": "images/le_rituel_4/scenario_detail.webp",
+      "canonical": "images/le_rituel_1/scenario_detail.webp"
+    },
+    {
+      "file": "images/le_rituel_4/scenario.webp",
+      "canonical": "images/le_rituel_1/scenario.webp"
+    },
+    {
+      "file": "images/le_rituel_4/time1.webp",
+      "canonical": "images/la_malediction_damarinta_1/time1.webp"
+    },
+    {
+      "file": "images/le_rituel_4/time2.webp",
+      "canonical": "images/la_malediction_damarinta_1/time2.webp"
+    },
+    {
+      "file": "images/le_rituel_4/time3.webp",
+      "canonical": "images/la_malediction_damarinta_1/time3.webp"
+    },
+    {
+      "file": "images/le_rituel_4/time4.webp",
+      "canonical": "images/la_malediction_damarinta_1/time4.webp"
+    },
+    {
+      "file": "images/le_rituel_4/time5.webp",
+      "canonical": "images/le_rituel_2/time5.webp"
+    },
+    {
+      "file": "images/le_rituel_4/time6.webp",
+      "canonical": "images/la_malediction_damarinta_1/time6.webp"
+    },
+    {
+      "file": "images/le_rituel_5/character1.webp",
+      "canonical": "images/la_malediction_damarinta_1/character1.webp"
+    },
+    {
+      "file": "images/le_rituel_5/character2.webp",
+      "canonical": "images/la_malediction_damarinta_1/character2.webp"
+    },
+    {
+      "file": "images/le_rituel_5/character3.webp",
+      "canonical": "images/la_malediction_damarinta_1/character3.webp"
+    },
+    {
+      "file": "images/le_rituel_5/character4.webp",
+      "canonical": "images/la_malediction_damarinta_1/character4.webp"
+    },
+    {
+      "file": "images/le_rituel_5/character5.webp",
+      "canonical": "images/la_malediction_damarinta_1/character5.webp"
+    },
+    {
+      "file": "images/le_rituel_5/character6.webp",
+      "canonical": "images/la_malediction_damarinta_1/character6.webp"
+    },
+    {
+      "file": "images/le_rituel_5/place1.webp",
+      "canonical": "images/la_malediction_damarinta_1/place1.webp"
+    },
+    {
+      "file": "images/le_rituel_5/place2.webp",
+      "canonical": "images/la_malediction_damarinta_1/place2.webp"
+    },
+    {
+      "file": "images/le_rituel_5/place3.webp",
+      "canonical": "images/la_malediction_damarinta_1/place3.webp"
+    },
+    {
+      "file": "images/le_rituel_5/place4.webp",
+      "canonical": "images/la_malediction_damarinta_1/place4.webp"
+    },
+    {
+      "file": "images/le_rituel_5/place5.webp",
+      "canonical": "images/la_malediction_damarinta_1/place5.webp"
+    },
+    {
+      "file": "images/le_rituel_5/place6.webp",
+      "canonical": "images/la_malediction_damarinta_1/place6.webp"
+    },
+    {
+      "file": "images/le_rituel_5/scenario_detail.webp",
+      "canonical": "images/le_rituel_1/scenario_detail.webp"
+    },
+    {
+      "file": "images/le_rituel_5/scenario.webp",
+      "canonical": "images/le_rituel_1/scenario.webp"
+    },
+    {
+      "file": "images/le_rituel_5/time1.webp",
+      "canonical": "images/la_malediction_damarinta_1/time1.webp"
+    },
+    {
+      "file": "images/le_rituel_5/time2.webp",
+      "canonical": "images/la_malediction_damarinta_1/time2.webp"
+    },
+    {
+      "file": "images/le_rituel_5/time3.webp",
+      "canonical": "images/la_malediction_damarinta_1/time3.webp"
+    },
+    {
+      "file": "images/le_rituel_5/time4.webp",
+      "canonical": "images/la_malediction_damarinta_1/time4.webp"
+    },
+    {
+      "file": "images/le_rituel_5/time5.webp",
+      "canonical": "images/le_rituel_2/time5.webp"
+    },
+    {
+      "file": "images/le_rituel_5/time6.webp",
+      "canonical": "images/la_malediction_damarinta_1/time6.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_1/character1.webp",
+      "canonical": "images/la_malediction_damarinta_1/character1.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_1/character2.webp",
+      "canonical": "images/la_malediction_damarinta_1/character2.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_1/character3.webp",
+      "canonical": "images/la_malediction_damarinta_1/character3.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_1/character4.webp",
+      "canonical": "images/la_malediction_damarinta_1/character4.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_1/character5.webp",
+      "canonical": "images/la_malediction_damarinta_1/character5.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_1/character6.webp",
+      "canonical": "images/la_malediction_damarinta_1/character6.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_1/place1.webp",
+      "canonical": "images/la_malediction_damarinta_1/place1.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_1/place2.webp",
+      "canonical": "images/la_malediction_damarinta_1/place2.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_1/place3.webp",
+      "canonical": "images/la_malediction_damarinta_1/place3.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_1/place4.webp",
+      "canonical": "images/la_malediction_damarinta_1/place4.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_1/place5.webp",
+      "canonical": "images/la_malediction_damarinta_1/place5.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_1/place6.webp",
+      "canonical": "images/la_malediction_damarinta_1/place6.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_1/time1.webp",
+      "canonical": "images/la_malediction_damarinta_1/time1.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_1/time2.webp",
+      "canonical": "images/la_malediction_damarinta_1/time2.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_1/time3.webp",
+      "canonical": "images/la_malediction_damarinta_1/time3.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_1/time4.webp",
+      "canonical": "images/la_malediction_damarinta_1/time4.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_1/time5.webp",
+      "canonical": "images/la_malediction_damarinta_1/time5.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_1/time6.webp",
+      "canonical": "images/la_malediction_damarinta_1/time6.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_2/character1.webp",
+      "canonical": "images/la_malediction_damarinta_1/character1.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_2/character2.webp",
+      "canonical": "images/la_malediction_damarinta_1/character2.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_2/character3.webp",
+      "canonical": "images/la_malediction_damarinta_1/character3.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_2/character4.webp",
+      "canonical": "images/la_malediction_damarinta_1/character4.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_2/character5.webp",
+      "canonical": "images/la_malediction_damarinta_1/character5.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_2/character6.webp",
+      "canonical": "images/la_malediction_damarinta_1/character6.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_2/place1.webp",
+      "canonical": "images/la_malediction_damarinta_1/place1.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_2/place2.webp",
+      "canonical": "images/la_malediction_damarinta_1/place2.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_2/place3.webp",
+      "canonical": "images/la_malediction_damarinta_1/place3.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_2/place4.webp",
+      "canonical": "images/la_malediction_damarinta_1/place4.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_2/place5.webp",
+      "canonical": "images/la_malediction_damarinta_1/place5.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_2/place6.webp",
+      "canonical": "images/la_malediction_damarinta_1/place6.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_2/scenario_detail.webp",
+      "canonical": "images/le_sceptre_dor_1/scenario_detail.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_2/scenario.webp",
+      "canonical": "images/le_sceptre_dor_1/scenario.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_2/time1.webp",
+      "canonical": "images/la_malediction_damarinta_1/time1.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_2/time2.webp",
+      "canonical": "images/la_malediction_damarinta_1/time2.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_2/time3.webp",
+      "canonical": "images/la_malediction_damarinta_1/time3.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_2/time4.webp",
+      "canonical": "images/la_malediction_damarinta_1/time4.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_2/time5.webp",
+      "canonical": "images/le_rituel_2/time5.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_2/time6.webp",
+      "canonical": "images/la_malediction_damarinta_1/time6.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_3/character1.webp",
+      "canonical": "images/la_malediction_damarinta_1/character1.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_3/character2.webp",
+      "canonical": "images/la_malediction_damarinta_1/character2.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_3/character3.webp",
+      "canonical": "images/la_malediction_damarinta_1/character3.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_3/character4.webp",
+      "canonical": "images/la_malediction_damarinta_1/character4.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_3/character5.webp",
+      "canonical": "images/la_malediction_damarinta_1/character5.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_3/character6.webp",
+      "canonical": "images/la_malediction_damarinta_1/character6.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_3/place1.webp",
+      "canonical": "images/la_malediction_damarinta_1/place1.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_3/place2.webp",
+      "canonical": "images/la_malediction_damarinta_1/place2.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_3/place3.webp",
+      "canonical": "images/la_malediction_damarinta_1/place3.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_3/place4.webp",
+      "canonical": "images/la_malediction_damarinta_1/place4.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_3/place5.webp",
+      "canonical": "images/la_malediction_damarinta_1/place5.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_3/place6.webp",
+      "canonical": "images/la_malediction_damarinta_1/place6.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_3/scenario_detail.webp",
+      "canonical": "images/le_sceptre_dor_1/scenario_detail.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_3/scenario.webp",
+      "canonical": "images/le_sceptre_dor_1/scenario.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_3/time1.webp",
+      "canonical": "images/la_malediction_damarinta_1/time1.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_3/time2.webp",
+      "canonical": "images/la_malediction_damarinta_1/time2.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_3/time3.webp",
+      "canonical": "images/la_malediction_damarinta_1/time3.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_3/time4.webp",
+      "canonical": "images/la_malediction_damarinta_1/time4.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_3/time5.webp",
+      "canonical": "images/le_rituel_2/time5.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_3/time6.webp",
+      "canonical": "images/la_malediction_damarinta_1/time6.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_4/character1.webp",
+      "canonical": "images/la_malediction_damarinta_1/character1.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_4/character2.webp",
+      "canonical": "images/la_malediction_damarinta_1/character2.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_4/character3.webp",
+      "canonical": "images/la_malediction_damarinta_1/character3.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_4/character4.webp",
+      "canonical": "images/la_malediction_damarinta_1/character4.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_4/character5.webp",
+      "canonical": "images/la_malediction_damarinta_1/character5.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_4/character6.webp",
+      "canonical": "images/la_malediction_damarinta_1/character6.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_4/place1.webp",
+      "canonical": "images/la_malediction_damarinta_1/place1.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_4/place2.webp",
+      "canonical": "images/la_malediction_damarinta_1/place2.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_4/place3.webp",
+      "canonical": "images/la_malediction_damarinta_1/place3.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_4/place4.webp",
+      "canonical": "images/la_malediction_damarinta_1/place4.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_4/place5.webp",
+      "canonical": "images/la_malediction_damarinta_1/place5.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_4/place6.webp",
+      "canonical": "images/la_malediction_damarinta_1/place6.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_4/scenario_detail.webp",
+      "canonical": "images/le_sceptre_dor_1/scenario_detail.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_4/scenario.webp",
+      "canonical": "images/le_sceptre_dor_1/scenario.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_4/time1.webp",
+      "canonical": "images/la_malediction_damarinta_1/time1.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_4/time2.webp",
+      "canonical": "images/la_malediction_damarinta_1/time2.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_4/time3.webp",
+      "canonical": "images/la_malediction_damarinta_1/time3.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_4/time4.webp",
+      "canonical": "images/la_malediction_damarinta_1/time4.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_4/time5.webp",
+      "canonical": "images/le_rituel_2/time5.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_4/time6.webp",
+      "canonical": "images/la_malediction_damarinta_1/time6.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_5/character1.webp",
+      "canonical": "images/la_malediction_damarinta_1/character1.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_5/character2.webp",
+      "canonical": "images/la_malediction_damarinta_1/character2.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_5/character3.webp",
+      "canonical": "images/la_malediction_damarinta_1/character3.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_5/character4.webp",
+      "canonical": "images/la_malediction_damarinta_1/character4.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_5/character5.webp",
+      "canonical": "images/la_malediction_damarinta_1/character5.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_5/character6.webp",
+      "canonical": "images/la_malediction_damarinta_1/character6.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_5/place1.webp",
+      "canonical": "images/la_malediction_damarinta_1/place1.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_5/place2.webp",
+      "canonical": "images/la_malediction_damarinta_1/place2.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_5/place3.webp",
+      "canonical": "images/la_malediction_damarinta_1/place3.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_5/place4.webp",
+      "canonical": "images/la_malediction_damarinta_1/place4.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_5/place5.webp",
+      "canonical": "images/la_malediction_damarinta_1/place5.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_5/place6.webp",
+      "canonical": "images/la_malediction_damarinta_1/place6.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_5/scenario_detail.webp",
+      "canonical": "images/le_sceptre_dor_1/scenario_detail.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_5/scenario.webp",
+      "canonical": "images/le_sceptre_dor_1/scenario.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_5/time1.webp",
+      "canonical": "images/la_malediction_damarinta_1/time1.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_5/time2.webp",
+      "canonical": "images/la_malediction_damarinta_1/time2.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_5/time3.webp",
+      "canonical": "images/la_malediction_damarinta_1/time3.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_5/time4.webp",
+      "canonical": "images/la_malediction_damarinta_1/time4.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_5/time5.webp",
+      "canonical": "images/le_rituel_2/time5.webp"
+    },
+    {
+      "file": "images/le_sceptre_dor_5/time6.webp",
+      "canonical": "images/la_malediction_damarinta_1/time6.webp"
+    }
+  ],
+  "sameNameDifferentContents": {
+    "place1-informations.webp": 15,
+    "place2-informations.webp": 15,
+    "place3-informations.webp": 15,
+    "place4-informations.webp": 15,
+    "place5-informations.webp": 15,
+    "place6-informations.webp": 14,
+    "scenario_detail.webp": 3,
+    "scenario.webp": 3,
+    "setup.webp": 14,
+    "solution.webp": 15,
+    "time5.webp": 2
+  },
+  "optimized": [
+    {
+      "file": "images/help.webp",
+      "beforeBytes": 961988,
+      "afterBytes": 929478,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/character1.webp",
+      "beforeBytes": 358094,
+      "afterBytes": 353608,
+      "alphaVerified": true
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/character2.webp",
+      "beforeBytes": 332266,
+      "afterBytes": 330186,
+      "alphaVerified": true
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/character3.webp",
+      "beforeBytes": 349228,
+      "afterBytes": 342240,
+      "alphaVerified": true
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/character4.webp",
+      "beforeBytes": 292370,
+      "afterBytes": 285192,
+      "alphaVerified": true
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/character5.webp",
+      "beforeBytes": 285400,
+      "afterBytes": 280152,
+      "alphaVerified": true
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/character6.webp",
+      "beforeBytes": 292876,
+      "afterBytes": 284812,
+      "alphaVerified": true
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/place1-informations.webp",
+      "beforeBytes": 248064,
+      "afterBytes": 244174,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/place1.webp",
+      "beforeBytes": 256064,
+      "afterBytes": 251702,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/place2-informations.webp",
+      "beforeBytes": 240418,
+      "afterBytes": 234644,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/place2.webp",
+      "beforeBytes": 287772,
+      "afterBytes": 286848,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/place3-informations.webp",
+      "beforeBytes": 221620,
+      "afterBytes": 216800,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/place3.webp",
+      "beforeBytes": 280950,
+      "afterBytes": 279016,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/place4-informations.webp",
+      "beforeBytes": 245376,
+      "afterBytes": 239910,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/place4.webp",
+      "beforeBytes": 249098,
+      "afterBytes": 246372,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/place5-informations.webp",
+      "beforeBytes": 226652,
+      "afterBytes": 220830,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/place5.webp",
+      "beforeBytes": 280276,
+      "afterBytes": 278890,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/place6-informations.webp",
+      "beforeBytes": 228726,
+      "afterBytes": 223434,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/place6.webp",
+      "beforeBytes": 275832,
+      "afterBytes": 274670,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/scenario_detail.webp",
+      "beforeBytes": 624376,
+      "afterBytes": 620844,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/scenario.webp",
+      "beforeBytes": 626590,
+      "afterBytes": 623650,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/setup.webp",
+      "beforeBytes": 579452,
+      "afterBytes": 564888,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/time1.webp",
+      "beforeBytes": 270160,
+      "afterBytes": 264342,
+      "alphaVerified": true
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/time2.webp",
+      "beforeBytes": 278254,
+      "afterBytes": 269588,
+      "alphaVerified": true
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/time3.webp",
+      "beforeBytes": 270310,
+      "afterBytes": 264776,
+      "alphaVerified": true
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/time4.webp",
+      "beforeBytes": 270008,
+      "afterBytes": 264490,
+      "alphaVerified": true
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/time5.webp",
+      "beforeBytes": 278384,
+      "afterBytes": 273734,
+      "alphaVerified": true
+    },
+    {
+      "file": "images/la_malediction_damarinta_1/time6.webp",
+      "beforeBytes": 271296,
+      "afterBytes": 265400,
+      "alphaVerified": true
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/place1-informations.webp",
+      "beforeBytes": 243374,
+      "afterBytes": 238050,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/place2-informations.webp",
+      "beforeBytes": 242480,
+      "afterBytes": 236726,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/place3-informations.webp",
+      "beforeBytes": 243054,
+      "afterBytes": 238000,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/place4-informations.webp",
+      "beforeBytes": 238712,
+      "afterBytes": 233388,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/place5-informations.webp",
+      "beforeBytes": 234756,
+      "afterBytes": 228172,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/place6-informations.webp",
+      "beforeBytes": 217674,
+      "afterBytes": 210068,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/setup.webp",
+      "beforeBytes": 560154,
+      "afterBytes": 546176,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_2/solution.webp",
+      "beforeBytes": 597730,
+      "afterBytes": 582872,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/place1-informations.webp",
+      "beforeBytes": 230798,
+      "afterBytes": 225092,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/place2-informations.webp",
+      "beforeBytes": 240684,
+      "afterBytes": 232586,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/place3-informations.webp",
+      "beforeBytes": 230268,
+      "afterBytes": 220330,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/place4-informations.webp",
+      "beforeBytes": 246578,
+      "afterBytes": 242228,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/place5-informations.webp",
+      "beforeBytes": 234196,
+      "afterBytes": 228846,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/place6-informations.webp",
+      "beforeBytes": 237754,
+      "afterBytes": 231742,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_3/solution.webp",
+      "beforeBytes": 574198,
+      "afterBytes": 569838,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/place1-informations.webp",
+      "beforeBytes": 166884,
+      "afterBytes": 161526,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/place2-informations.webp",
+      "beforeBytes": 170804,
+      "afterBytes": 166276,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/place3-informations.webp",
+      "beforeBytes": 177990,
+      "afterBytes": 171816,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/place4-informations.webp",
+      "beforeBytes": 183490,
+      "afterBytes": 179116,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/place5-informations.webp",
+      "beforeBytes": 163974,
+      "afterBytes": 159058,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/place6-informations.webp",
+      "beforeBytes": 181136,
+      "afterBytes": 175936,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/setup.webp",
+      "beforeBytes": 558990,
+      "afterBytes": 553390,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_4/solution.webp",
+      "beforeBytes": 599034,
+      "afterBytes": 595822,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/place1-informations.webp",
+      "beforeBytes": 220796,
+      "afterBytes": 214498,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/place2-informations.webp",
+      "beforeBytes": 172124,
+      "afterBytes": 167342,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/place3-informations.webp",
+      "beforeBytes": 179166,
+      "afterBytes": 174924,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/place4-informations.webp",
+      "beforeBytes": 183556,
+      "afterBytes": 178762,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/place5-informations.webp",
+      "beforeBytes": 165006,
+      "afterBytes": 159892,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/place6-informations.webp",
+      "beforeBytes": 179062,
+      "afterBytes": 174878,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/setup.webp",
+      "beforeBytes": 585650,
+      "afterBytes": 583046,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/la_malediction_damarinta_5/solution.webp",
+      "beforeBytes": 607044,
+      "afterBytes": 603528,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_1/place1-informations.webp",
+      "beforeBytes": 208892,
+      "afterBytes": 203512,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_1/place2-informations.webp",
+      "beforeBytes": 194560,
+      "afterBytes": 189256,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_1/place3-informations.webp",
+      "beforeBytes": 209982,
+      "afterBytes": 205540,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_1/place4-informations.webp",
+      "beforeBytes": 202914,
+      "afterBytes": 197494,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_1/place5-informations.webp",
+      "beforeBytes": 215188,
+      "afterBytes": 210078,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_1/place6-informations.webp",
+      "beforeBytes": 209142,
+      "afterBytes": 204958,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_1/scenario_detail.webp",
+      "beforeBytes": 601646,
+      "afterBytes": 595512,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_1/setup.webp",
+      "beforeBytes": 543882,
+      "afterBytes": 533098,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_1/solution.webp",
+      "beforeBytes": 556460,
+      "afterBytes": 554372,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_2/place1-informations.webp",
+      "beforeBytes": 270566,
+      "afterBytes": 268900,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_2/place2-informations.webp",
+      "beforeBytes": 256500,
+      "afterBytes": 254544,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_2/place3-informations.webp",
+      "beforeBytes": 268824,
+      "afterBytes": 267560,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_2/place4-informations.webp",
+      "beforeBytes": 208788,
+      "afterBytes": 203080,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_2/place5-informations.webp",
+      "beforeBytes": 200814,
+      "afterBytes": 195220,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_2/place6-informations.webp",
+      "beforeBytes": 211128,
+      "afterBytes": 206854,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_2/setup.webp",
+      "beforeBytes": 521580,
+      "afterBytes": 514838,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_2/solution.webp",
+      "beforeBytes": 562926,
+      "afterBytes": 561300,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_2/time5.webp",
+      "beforeBytes": 280332,
+      "afterBytes": 271188,
+      "alphaVerified": true
+    },
+    {
+      "file": "images/le_rituel_3/place1-informations.webp",
+      "beforeBytes": 262254,
+      "afterBytes": 260616,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_3/place2-informations.webp",
+      "beforeBytes": 273880,
+      "afterBytes": 270228,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_3/place3-informations.webp",
+      "beforeBytes": 278260,
+      "afterBytes": 274070,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_3/place4-informations.webp",
+      "beforeBytes": 202908,
+      "afterBytes": 197688,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_3/place5-informations.webp",
+      "beforeBytes": 204838,
+      "afterBytes": 199812,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_3/place6-informations.webp",
+      "beforeBytes": 207838,
+      "afterBytes": 204796,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_3/setup.webp",
+      "beforeBytes": 556360,
+      "afterBytes": 541714,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_3/solution.webp",
+      "beforeBytes": 557822,
+      "afterBytes": 556104,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_4/place1-informations.webp",
+      "beforeBytes": 271690,
+      "afterBytes": 269990,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_4/place2-informations.webp",
+      "beforeBytes": 259776,
+      "afterBytes": 257490,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_4/place3-informations.webp",
+      "beforeBytes": 214576,
+      "afterBytes": 208902,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_4/place4-informations.webp",
+      "beforeBytes": 204720,
+      "afterBytes": 199668,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_4/place5-informations.webp",
+      "beforeBytes": 212078,
+      "afterBytes": 208196,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_4/place6-informations.webp",
+      "beforeBytes": 207096,
+      "afterBytes": 201044,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_4/setup.webp",
+      "beforeBytes": 518368,
+      "afterBytes": 514698,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_4/solution.webp",
+      "beforeBytes": 566356,
+      "afterBytes": 561952,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_5/place1-informations.webp",
+      "beforeBytes": 203382,
+      "afterBytes": 197692,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_5/place2-informations.webp",
+      "beforeBytes": 161774,
+      "afterBytes": 156472,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_5/place3-informations.webp",
+      "beforeBytes": 148578,
+      "afterBytes": 144894,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_5/place4-informations.webp",
+      "beforeBytes": 149998,
+      "afterBytes": 144948,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_5/place5-informations.webp",
+      "beforeBytes": 152504,
+      "afterBytes": 147010,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_5/place6-informations.webp",
+      "beforeBytes": 149430,
+      "afterBytes": 143570,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_5/setup.webp",
+      "beforeBytes": 544990,
+      "afterBytes": 527024,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_rituel_5/solution.webp",
+      "beforeBytes": 561896,
+      "afterBytes": 544966,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_1/place1-informations.webp",
+      "beforeBytes": 209594,
+      "afterBytes": 205020,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_1/place2-informations.webp",
+      "beforeBytes": 198534,
+      "afterBytes": 194358,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_1/place3-informations.webp",
+      "beforeBytes": 202906,
+      "afterBytes": 199418,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_1/place4-informations.webp",
+      "beforeBytes": 208518,
+      "afterBytes": 200760,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_1/place5-informations.webp",
+      "beforeBytes": 185150,
+      "afterBytes": 181776,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_1/place6-informations.webp",
+      "beforeBytes": 203250,
+      "afterBytes": 198954,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_1/scenario.webp",
+      "beforeBytes": 556690,
+      "afterBytes": 545832,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_1/setup.webp",
+      "beforeBytes": 531734,
+      "afterBytes": 516554,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_1/solution.webp",
+      "beforeBytes": 560448,
+      "afterBytes": 547976,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_2/place1-informations.webp",
+      "beforeBytes": 208616,
+      "afterBytes": 205028,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_2/place2-informations.webp",
+      "beforeBytes": 201976,
+      "afterBytes": 196382,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_2/place3-informations.webp",
+      "beforeBytes": 201564,
+      "afterBytes": 196744,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_2/place4-informations.webp",
+      "beforeBytes": 211910,
+      "afterBytes": 206444,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_2/place5-informations.webp",
+      "beforeBytes": 191676,
+      "afterBytes": 187924,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_2/place6-informations.webp",
+      "beforeBytes": 196354,
+      "afterBytes": 189146,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_2/setup.webp",
+      "beforeBytes": 513658,
+      "afterBytes": 506170,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_3/place1-informations.webp",
+      "beforeBytes": 199168,
+      "afterBytes": 193282,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_3/place2-informations.webp",
+      "beforeBytes": 199698,
+      "afterBytes": 194794,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_3/place3-informations.webp",
+      "beforeBytes": 199332,
+      "afterBytes": 193546,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_3/place4-informations.webp",
+      "beforeBytes": 212660,
+      "afterBytes": 208226,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_3/place5-informations.webp",
+      "beforeBytes": 209238,
+      "afterBytes": 203174,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_3/place6-informations.webp",
+      "beforeBytes": 214060,
+      "afterBytes": 209874,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_3/setup.webp",
+      "beforeBytes": 511548,
+      "afterBytes": 505758,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_3/solution.webp",
+      "beforeBytes": 567296,
+      "afterBytes": 562788,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_4/place1-informations.webp",
+      "beforeBytes": 214586,
+      "afterBytes": 210642,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_4/place2-informations.webp",
+      "beforeBytes": 152478,
+      "afterBytes": 147608,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_4/place3-informations.webp",
+      "beforeBytes": 148850,
+      "afterBytes": 144166,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_4/place4-informations.webp",
+      "beforeBytes": 141526,
+      "afterBytes": 136450,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_4/place5-informations.webp",
+      "beforeBytes": 148466,
+      "afterBytes": 142512,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_4/place6-informations.webp",
+      "beforeBytes": 152278,
+      "afterBytes": 147944,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_4/setup.webp",
+      "beforeBytes": 415506,
+      "afterBytes": 410154,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_4/solution.webp",
+      "beforeBytes": 565846,
+      "afterBytes": 561656,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_5/place1-informations.webp",
+      "beforeBytes": 200806,
+      "afterBytes": 196772,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_5/place2-informations.webp",
+      "beforeBytes": 206080,
+      "afterBytes": 200240,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_5/place3-informations.webp",
+      "beforeBytes": 207308,
+      "afterBytes": 201188,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_5/place4-informations.webp",
+      "beforeBytes": 203018,
+      "afterBytes": 196940,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_5/place5-informations.webp",
+      "beforeBytes": 192788,
+      "afterBytes": 187258,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_5/place6-informations(63).webp",
+      "beforeBytes": 211478,
+      "afterBytes": 206684,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_5/setup.jpg",
+      "beforeBytes": 540902,
+      "afterBytes": 442420,
+      "alphaVerified": false
+    },
+    {
+      "file": "images/le_sceptre_dor_5/solution.webp",
+      "beforeBytes": 563304,
+      "afterBytes": 558444,
+      "alphaVerified": false
+    }
+  ],
+  "compressedHashes": {
+    "images/help.webp": "ed8b9cacfc5c78ccc6e3c67af6038451eef80ca565ca4cab88822ee157579064",
+    "images/icon-192.png": "beebe4aeaf8c5da5fe18648b5053dd79c315c2742a43d4b9184057fc5026a456",
+    "images/icon-512(1).png": "07e4d7eaa1bc7ec96c41f8449887db9bb8e2dfca5c88f7e29446da5836f2705a",
+    "images/la_malediction_damarinta_1/character1.webp": "2c25834ecabbd92a36a75f7bc8fb3af6036947ece0373fd34bec9a5cda98f851",
+    "images/la_malediction_damarinta_1/character2.webp": "5ea4c374f2d3c82b51bf39ddad8b3ef754f176d81b6b0d66840189f8175a55af",
+    "images/la_malediction_damarinta_1/character3.webp": "7abc26d9f8cfaf3fb6675e285c786a2782f7d0d4b8c07974164de29483c6ec47",
+    "images/la_malediction_damarinta_1/character4.webp": "75dc745d1e30866e6fc28a85297b2575b3846e38248ed2a68843f59eefef03de",
+    "images/la_malediction_damarinta_1/character5.webp": "e8a7946f02d3ff7e5c5abaf04cb71324ebce2795fbe1526857cdb474c08fba53",
+    "images/la_malediction_damarinta_1/character6.webp": "d03a6f397a2eb4cf4a3d3b1c0379f6e27bce84754b61b8f36140150d1f3b0c22",
+    "images/la_malediction_damarinta_1/place1-informations.webp": "e32d6bd0ad5a872384a30d9153657d60507c740b585c04830f9824ad1ce879e4",
+    "images/la_malediction_damarinta_1/place1.webp": "62cf92780d6d01ed2ca42d9294a1c4eba9b5f2f5c9dc8ac5fc78b2af2a4d91db",
+    "images/la_malediction_damarinta_1/place2-informations.webp": "5db2e46b0d0119e1748c57fcbd68fd6480a2a506a9fafcc63a3ac744890559f2",
+    "images/la_malediction_damarinta_1/place2.webp": "a8218222e5cac5bc2350a18710bfd4bf819d46c771087c00cdf44fcc3bbf55d4",
+    "images/la_malediction_damarinta_1/place3-informations.webp": "3a366ce605361283641e3bd32c034d84957a54f7e140fb1d4bea2d9d0921e497",
+    "images/la_malediction_damarinta_1/place3.webp": "4e77fec86a1a9bc0e744764ee03507be68237b587229439469b3cecdfea33cda",
+    "images/la_malediction_damarinta_1/place4-informations.webp": "e2810dd1104e6eb7bc23585324b6347a4f2861e200e578bfe7e03e96925bb637",
+    "images/la_malediction_damarinta_1/place4.webp": "212e4d840a349aa3899fab3e697667933f59f3a2ecd88bfff0364e4e14bfa316",
+    "images/la_malediction_damarinta_1/place5-informations.webp": "068014ccffbd14af3199cfd10a8722adff9b7f2b144e2f723ed6a0d9d92116c8",
+    "images/la_malediction_damarinta_1/place5.webp": "bbc622ae23058b5990e2f65fb2afe046e158abdd4916d3e65dc827c7bf5ecced",
+    "images/la_malediction_damarinta_1/place6-informations.webp": "2119c2484e6718d0cb3a97435c048dacae046a043b9f9f6c98f3fe47a11eca56",
+    "images/la_malediction_damarinta_1/place6.webp": "361706bc20716046ac2110337cdd50293ce9c0d2f3d61282f555c679655c62fc",
+    "images/la_malediction_damarinta_1/scenario_detail.webp": "14c7463558c33f8e4ab503dcbe2bb15ab24f313b4b467976738b296bfc81d4fe",
+    "images/la_malediction_damarinta_1/scenario.webp": "53eb768e859c6dae245d0fef6d726de0eed6526fd1b7ff48df2596f8f1e29ed9",
+    "images/la_malediction_damarinta_1/setup.webp": "4aa8b316b9a1456e8502cd6fc2944d98b1b7be6d402676a29f27aa715db178eb",
+    "images/la_malediction_damarinta_1/solution.webp": "2c5ae48a32afa09942bc4e97accc7ba1b52a646a29cc4bd3a9e24c76da674c11",
+    "images/la_malediction_damarinta_1/time1.webp": "d46422929cb83ac24fa36bba1d13da93a39650b3dad4490178109341bfea8fc7",
+    "images/la_malediction_damarinta_1/time2.webp": "60ae27da6f24899e31d9649a11a77c0c60a52dab1d0271b754df4d110d016cb9",
+    "images/la_malediction_damarinta_1/time3.webp": "5826bf0b572e9defb17ad4f924c142a249df5062654499f90d3d3ddb5df85a4e",
+    "images/la_malediction_damarinta_1/time4.webp": "a97ac657531cb222df0ea52120e4422c1420d3972b144e2596191e06102e18e5",
+    "images/la_malediction_damarinta_1/time5.webp": "c8238851ac26c24f118e151c8c8fd5e8826db88c55689e149a84cab3da6da4de",
+    "images/la_malediction_damarinta_1/time6.webp": "221d289520f0c055e36613bbeefdaaf827af9fe98e3fcd788aff1150a945cd8d",
+    "images/la_malediction_damarinta_2/place1-informations.webp": "9eb24225f0168757f43fdc29e73c193d0bdd678111424186b415306e40a7708a",
+    "images/la_malediction_damarinta_2/place2-informations.webp": "5892015f3b95404ce5159ef28ad1b0b45d217a22f7cc4e746f1df8519a2991bd",
+    "images/la_malediction_damarinta_2/place3-informations.webp": "08a1c6cbffd83d10b58a1642cea0065b39722c8f027ba2aa9aba7f58ec391f5e",
+    "images/la_malediction_damarinta_2/place4-informations.webp": "9a0d32b6a41b898607c81793cd84b68e81b9fa9f646446d035ff51c3a8ef41a9",
+    "images/la_malediction_damarinta_2/place5-informations.webp": "ca9a7c8f20298bbde23bb7053c962b1aff5e2e9a11a2c2ae28e15495ff950b45",
+    "images/la_malediction_damarinta_2/place6-informations.webp": "94ae5e4f9b86fad58b354a9542e57878ea3fdbc2d2108d83020bb769c2f91172",
+    "images/la_malediction_damarinta_2/setup.webp": "924c7d09257c55b7686aed2dff76d817ba4d4f2df5a39b70a8026c220207c7f1",
+    "images/la_malediction_damarinta_2/solution.webp": "cab67b7e7c50ccab8b9c08067797d487f084d2d997228a1c84ea67d5adc7aa14",
+    "images/la_malediction_damarinta_3/place1-informations.webp": "12d7e0a02a16d63a36157a8aaa1848c9ef0c288174cc082ee5030065d3c5bec4",
+    "images/la_malediction_damarinta_3/place2-informations.webp": "6bba78f4827a80b872f2cfa33d5376a431cdbe247e6cd0fd06f49d5d7a6e9b08",
+    "images/la_malediction_damarinta_3/place3-informations.webp": "193fdfba4ede2e074256ef9f0388a94317f3c75f3b4549f57729f22bd58fefda",
+    "images/la_malediction_damarinta_3/place4-informations.webp": "7f945105c3cc4baf7040f35deca1bc9a38d90c826a862efa687b401693e933a8",
+    "images/la_malediction_damarinta_3/place5-informations.webp": "47acfce75574d8114eddd8906bbabf79f85307af848a9cfd4efcdc66b8dfcf4c",
+    "images/la_malediction_damarinta_3/place6-informations.webp": "6526964bfbbde9e6ec07e9d55a333b7ce8516b5d8e120f6218142dd3049230e7",
+    "images/la_malediction_damarinta_3/setup.webp": "0469e9ac7c16b703160448ca14a25b71b2740f960715f88c902171dc2f309acc",
+    "images/la_malediction_damarinta_3/solution.webp": "cd0994348f1b5fbadbe71d0c15f7d2eb99c96ca22ae5237ee74f9ede6754fb9c",
+    "images/la_malediction_damarinta_4/place1-informations.webp": "080fb45ea011d87d26d260d9d8e7a082f47fbb39795d4c196f21fdd74b68757a",
+    "images/la_malediction_damarinta_4/place2-informations.webp": "210f0007175ec9af48b17da12979866df2e3990467dd48acff24019ed09b850e",
+    "images/la_malediction_damarinta_4/place3-informations.webp": "0dc874a939afb43736976bd39b1d6c4da7a0559e37248ddc22714410a2ef1143",
+    "images/la_malediction_damarinta_4/place4-informations.webp": "dfb02fedd7aad2bd026b3a8913dedf8864619f7e4503ba169e47daa0dd3b4e4d",
+    "images/la_malediction_damarinta_4/place5-informations.webp": "ab25531ab2cfbdc832ef404678604f2ec52da4fb50f5243a01b6ba6783c8435a",
+    "images/la_malediction_damarinta_4/place6-informations.webp": "4c7be339259ba0fc509f321b4d2a0f1050b8497c6e794344ff34696b7ee4afe9",
+    "images/la_malediction_damarinta_4/setup.webp": "f4ed8132b2e58c8ff34f12e6af5aef7dec222f4d25da248d9f2b57ebb46aa791",
+    "images/la_malediction_damarinta_4/solution.webp": "fdd1076e3ac59eb050749671a64fe052198f8d6db841f85a39db5d9fac68bb94",
+    "images/la_malediction_damarinta_5/place1-informations.webp": "5f762027b351a19cc7c3362c117f7bf46dbd69aedf05c998ef4b09cee83102e0",
+    "images/la_malediction_damarinta_5/place2-informations.webp": "cc7b0a5d5d3a82809b01685aeb2f8dac6548669cf0adf555933f3163fbd6e587",
+    "images/la_malediction_damarinta_5/place3-informations.webp": "21ba0dfb7bba1a8e2a5de311ec503bf8828bdef0e5437c92d67caee7a609c693",
+    "images/la_malediction_damarinta_5/place4-informations.webp": "321c878ab135ed4dfdc6c8790c73e4ca7d9a0f3121ff1474d94740809e0084ae",
+    "images/la_malediction_damarinta_5/place5-informations.webp": "b0481a7d180e57105b75d83e0cab7483d598a82ebc77481f12b95b14a14d02a4",
+    "images/la_malediction_damarinta_5/place6-informations.webp": "a527f7cd788c2d91398dc7ec40990c3c14208a931a020473bd041a1078a8728b",
+    "images/la_malediction_damarinta_5/setup.webp": "524c834f0a172a730781a39bad04e18142bc72f1529799efaac61af7dec3980c",
+    "images/la_malediction_damarinta_5/solution.webp": "dbd80f2ec40a381cde7685fc216907e15ac20cfcd5e126f59b3a418cfcf29be1",
+    "images/le_rituel_1/place1-informations.webp": "835190fbc30e3a9e9f4759d3e243408787eeb31e7cb2dbdd9c70cb67ac450082",
+    "images/le_rituel_1/place2-informations.webp": "5d08d567214f7cc181ab5c3397a64b0df4b86a0b7fb7d4e427a61e8c049c7595",
+    "images/le_rituel_1/place3-informations.webp": "3844a4d03fc982d540edc53afdc0d8420c360b9dfc5d1571740039839de0c255",
+    "images/le_rituel_1/place4-informations.webp": "34145fe081823cd2c8187d1d658ea11a9bbab14c72c3d732eda53604500b34cd",
+    "images/le_rituel_1/place5-informations.webp": "c109074f3413aaf1325a0ed366dbbb5f05f149fd00bafe5fb7add2aad286d0b3",
+    "images/le_rituel_1/place6-informations.webp": "1b92647b666aaac68632af6c79e3e9140fb9f794b6702c3377369ea0cba7a5e6",
+    "images/le_rituel_1/scenario_detail.webp": "65c98de83881037c413073084baecd2384bd053962e6022ac47d2ecafd6c8e3f",
+    "images/le_rituel_1/scenario.webp": "df664fbe0ed47a32391b82c5e115380c513111543577d5fe9e58466515130f2c",
+    "images/le_rituel_1/setup.webp": "d6e0891ded2b6ba8755370861f3075d19a29aad8f1ba8be34bc73d6a5f74c7a7",
+    "images/le_rituel_1/solution.webp": "764b9223c190338ddda99bdd757ae0202d84889e4eb1bda28221991f402b27ea",
+    "images/le_rituel_2/place1-informations.webp": "6d8b22051824f0cbcbbd85a8028a27df055b9b286380b840d331215a6e2db0a2",
+    "images/le_rituel_2/place2-informations.webp": "3fd0080409ec03400a071a934a3a61ff4b0fc8d3080882132e8d3009dd4f7922",
+    "images/le_rituel_2/place3-informations.webp": "8c90f463508309fa31e5e894b8766bfb20b2b67731e5cfb106bef028a4cbe194",
+    "images/le_rituel_2/place4-informations.webp": "3728b012f5239d1c53298f650a86e7cd9ab1c9bc7175a7de1cc46e6fd2e8b9a8",
+    "images/le_rituel_2/place5-informations.webp": "75746646eca2b99edf2fcda25cb6f532a3d2cbb7925e8a4c476332cce1ef3519",
+    "images/le_rituel_2/place6-informations.webp": "b3119c8c3238bbfaf5aa909263dd1fc9af516a38c56b6dcb9363aba39e8e88a7",
+    "images/le_rituel_2/setup.webp": "dae7de688e5e0bd66326e8b91d9cb2c85ef9a956dc791b3a7143c1168d1f3083",
+    "images/le_rituel_2/solution.webp": "82861dc6f5f8f63710c4f343988e1ea57652fe6ff064184b34d3dec6648c71f6",
+    "images/le_rituel_2/time5.webp": "bd5d864b69e8f38283e4738418a9dfbdfb0493bfe74de04fbb60fc1346306f36",
+    "images/le_rituel_3/place1-informations.webp": "9eb4a1351cab1aded6d0c3484978961124612fa24455c1b057dee534c716417c",
+    "images/le_rituel_3/place2-informations.webp": "08f9aad23d1e7e04c1b53f18d4bd2efd267edf5fa52c010555266d7289f2cbcd",
+    "images/le_rituel_3/place3-informations.webp": "3d68ea6bf7910c67af8895071225ae16ace5056eed2e17f579db6eba24fdf8db",
+    "images/le_rituel_3/place4-informations.webp": "2d77383cddd97c52ef87663c0daed5e936df2f48dfd39d0f4c2219a69dd89ceb",
+    "images/le_rituel_3/place5-informations.webp": "d4f32f5ed3dc4ba0e2bee2c1efccf7591ebf116f3b61d3218d7b71278156c052",
+    "images/le_rituel_3/place6-informations.webp": "fc77376fd6d204a7da560a508f85eea40c428c88f6b560af091df9f0f32f61a3",
+    "images/le_rituel_3/setup.webp": "ed386efec51d73318d811cda6d6ed44a0b31e6d97daad1e9e1697e8481583a36",
+    "images/le_rituel_3/solution.webp": "76c5b3ccd355a57332a68be649722db7d875c87bd9352d5bb6d9f84a863ce689",
+    "images/le_rituel_4/place1-informations.webp": "adf2c290188e7d3d93691f62633bf86c52e09db4fc3fd867ee11d344c8022282",
+    "images/le_rituel_4/place2-informations.webp": "16daab041f24a878317c305bf7a921f0c0018853e2486ec2ae94a606f02e3103",
+    "images/le_rituel_4/place3-informations.webp": "409c7537af2d1c14ffde6bcc50abcbe6b8a01640284e08fae48fee2b15fa5484",
+    "images/le_rituel_4/place4-informations.webp": "a3b566a1e7fcef7961e855dd76bad029e61fd5b21a4c2fd7f92e5167cec0b356",
+    "images/le_rituel_4/place5-informations.webp": "753b35f76ad4d71368c3e87680762e8ae057f1419dfc8d935a4c01197058d527",
+    "images/le_rituel_4/place6-informations.webp": "bbb20391121b7f6eab03365dbad4db8774c0e74c8ffd39b82dc853a0c379cccc",
+    "images/le_rituel_4/setup.webp": "4ffa4a8c2b04c1b01f743faa93e8377d8a2bb0b37093a547cb20fca8877351a3",
+    "images/le_rituel_4/solution.webp": "66602c550c7288dc5338cbbb54aa84f8de6b2335c91a39de796ae0dc9ca28eea",
+    "images/le_rituel_5/place1-informations.webp": "405728ca25211e422c798375a345c7940e08bb5fcc2f95e9afb18b898aee1cf6",
+    "images/le_rituel_5/place2-informations.webp": "c7ef155e0ec4e955fbf6ea049f7bf470dad8e013a8597669f48602ce45938979",
+    "images/le_rituel_5/place3-informations.webp": "cb851186114181c8250206c547e23d4549e77a7f38a74062cf274b94f1bcd08b",
+    "images/le_rituel_5/place4-informations.webp": "fa6522618be1bbeb9e07da7ae73aa7d10e28230f8b090cf8beccd8e839231c54",
+    "images/le_rituel_5/place5-informations.webp": "93ce567e4bff3eaf11a306e6ed5b0a713e431f6f6cb38487e88ff20ebeba7449",
+    "images/le_rituel_5/place6-informations.webp": "03f4563dbbea3a62538e1ef2114ef0f45130eb2cf2231731e436f8e770df394d",
+    "images/le_rituel_5/setup.webp": "6618d3671cb1eed2f4f01a3c0681854e65eb0fb4c186c1edb12924232e4fb942",
+    "images/le_rituel_5/solution.webp": "b3c2662dd95b8bd23e458b83d4bd1e1dfff9b547db0b330d668a2a2942c39a3b",
+    "images/le_sceptre_dor_1/place1-informations.webp": "24d48280fd5b32c8ecdef30d6456668131a49478ea759d2513e13ff7da96c041",
+    "images/le_sceptre_dor_1/place2-informations.webp": "3c24920139b5fe2bb96d5221a66fd1072b82a3546fbe6329c7059abdc8665ef8",
+    "images/le_sceptre_dor_1/place3-informations.webp": "da4cac22eb32b6b3489a856463afca53a0247306c22098acfe932049b79e00ce",
+    "images/le_sceptre_dor_1/place4-informations.webp": "b7d796d1080665e4518ed6f6a4d94bc3da1c79a30dc6ede4143cb9fbb37d109f",
+    "images/le_sceptre_dor_1/place5-informations.webp": "13ad2e83af6b09c02d3c486cb4c5774bac72700671c5cac9c566f0ed51756f1c",
+    "images/le_sceptre_dor_1/place6-informations.webp": "028ae7b4e3345c3dfff1906832d4c60cf40e7b22a0d4ffbad524b313ce12aaf9",
+    "images/le_sceptre_dor_1/scenario_detail.webp": "877e836d9346e3b2e6aa1b5c0995fddb7293a34a2b883608376cd8a521e9e3d2",
+    "images/le_sceptre_dor_1/scenario.webp": "97e6bb40391c0d8cbf9d689dd0877a92f1b0e058267341491a3d5642e246a1f9",
+    "images/le_sceptre_dor_1/setup.webp": "e854f778aa27d925779511a25d4f2abea8cf46abad6c702c8941bc1e4a991f55",
+    "images/le_sceptre_dor_1/solution.webp": "2ba9a4a7f1b7f805ef815090cdbf4b51c9f950193a91569f68514ed851d3b8d7",
+    "images/le_sceptre_dor_2/place1-informations.webp": "babff7bb94854c40e60fbba44bd72c598cd78f8d784d1807505aaf47d0ad458b",
+    "images/le_sceptre_dor_2/place2-informations.webp": "12741a96028793884d923532456557a4c042a64b5760be5ff861277c799c6ed8",
+    "images/le_sceptre_dor_2/place3-informations.webp": "fa09d08b9368f2f35695d716d52b788e4351fbeedf9515937ae7e304f058fe26",
+    "images/le_sceptre_dor_2/place4-informations.webp": "cd518f88b6164e4015d2e61fc1d8886017ccc1295cf4889af2762f9ea32301a9",
+    "images/le_sceptre_dor_2/place5-informations.webp": "8a0e2dc153a51ed1bd1b3e32aa93fad36be6ae98f50052ca9b939fdc8e08a7e3",
+    "images/le_sceptre_dor_2/place6-informations.webp": "eee1c30e539fabf5bea7ac439415d5c7f23c508c71eb4ed050fd10b5119a642d",
+    "images/le_sceptre_dor_2/setup.webp": "6d061f7774f2e8560094d1f357f960911c0a1c3c67d980c42c21565a53f409dd",
+    "images/le_sceptre_dor_2/solution.webp": "41553674e086450e97aa1917966e8174f68991ca552e33e28875d649e9fda2cd",
+    "images/le_sceptre_dor_3/place1-informations.webp": "eb6dccf2b7d2aa791be7908fc1024f4916ace5da1b4e365d686242d62531a25c",
+    "images/le_sceptre_dor_3/place2-informations.webp": "e65512baea095038d932e3fc5858a3bebe1611e932ff46c178e51d157962cb69",
+    "images/le_sceptre_dor_3/place3-informations.webp": "ae0231167390c505ceedcf958619059bca91a24cd041c46f2763e830de25ef3e",
+    "images/le_sceptre_dor_3/place4-informations.webp": "dd1baaa752b59fbad83f172fc48eb46d017f979f6df0455ab6b3a73a2475d1dd",
+    "images/le_sceptre_dor_3/place5-informations.webp": "baa223010cb1bbf552e8a1429f363e1529db19d6fb6aae8113bb31db670a14d0",
+    "images/le_sceptre_dor_3/place6-informations.webp": "6f4bd4c51ca711f08a7afec4485a672ae7c49964022162b66d118e9b53659733",
+    "images/le_sceptre_dor_3/setup.webp": "2688685a76938a92c5d67ba090e9208747ce1337cc2f7a7eb394c4ddf6b82dc2",
+    "images/le_sceptre_dor_3/solution.webp": "0656cb650ac85f510623297c49ad5b7b0ec8631ea3c1b0632632651a4f6f7fc5",
+    "images/le_sceptre_dor_4/place1-informations.webp": "e5b709b6d529eab0c7eed3282604c8846f4a7bf8738fa90b2b83b5eec7632ca0",
+    "images/le_sceptre_dor_4/place2-informations.webp": "3797b1037ee2b7a9ba8af7375c97321f2b1c0c36284a6fd16d40bfd713317a1d",
+    "images/le_sceptre_dor_4/place3-informations.webp": "b6a577a33445ee8a39e12ac171490342dac8681c60745f8c324f5c66cdd2cb87",
+    "images/le_sceptre_dor_4/place4-informations.webp": "30b3c719d7afdb22e8b54c44f746c4f85283aa8b9d8ae208f1c3f31074735125",
+    "images/le_sceptre_dor_4/place5-informations.webp": "8cacadec8d8cdf7cb57139e04c791761767d27e1f29debefa5fac7b22a939c05",
+    "images/le_sceptre_dor_4/place6-informations.webp": "93dd24424ceb14822b6a5ad17bcac3cdecd7f9aad2ab1931d1e7e525137f81d0",
+    "images/le_sceptre_dor_4/setup.webp": "19bddfecbf307d3700becda2c3dd3fd150d7885cec2694a9d7a6e3aedb9bb4b8",
+    "images/le_sceptre_dor_4/solution.webp": "b6e907bcee28f0deae2de4ee902f37ff9bc7b55b544e3375f69d7c965bd4a81d",
+    "images/le_sceptre_dor_5/place1-informations.webp": "aaeb3d9a9a567238e89c51d2aa4bddd862409ab5210271467fc6d538ab4db1f4",
+    "images/le_sceptre_dor_5/place2-informations.webp": "16805f6e83d2d2c8a126eefc7edd66f22525fb2cb8b05c464ae45d007bf992e2",
+    "images/le_sceptre_dor_5/place3-informations.webp": "dac9e07d33365609a21367464fe27754edd7cf4db291662af060de0aecb5bf48",
+    "images/le_sceptre_dor_5/place4-informations.webp": "a4f07531d1923fb5a326b15a051dfa11f0a475db2837a07971ba1ea5c680a2ec",
+    "images/le_sceptre_dor_5/place5-informations.webp": "5b1f53e052a66f68152509a6404e9c44619ad6b670a19637ca495df0b5d25481",
+    "images/le_sceptre_dor_5/place6-informations(63).webp": "6c5a0279caca61cd8aefafa463581cecdc3661b9ad862efcedce02488e05dd29",
+    "images/le_sceptre_dor_5/setup.jpg": "b168ccade7a23b6eb617e5cc2fd33a583abe262619863236a50c9127eab1340d",
+    "images/le_sceptre_dor_5/solution.webp": "8132538588aef19017f89fb161651d5d06ae35019e05ef6b107a3e80744a339f"
+  }
+}
