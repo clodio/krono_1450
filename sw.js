@@ -1,14 +1,14 @@
-const CACHE_NAME = 'cache-krono1450-images-v2';
+const CACHE_NAME = 'cache-krono1450-images-v3';
 const ASSETS = [
-  '/',
-  '/index.html',
-  '/style.css',
-  '/image-assets.js',
-  '/sw.js',
-  '/manifest.json',
-  '/images/help.webp',
-  '/images/icon-192.png',
-  '/images/icon-512(1).png',
+  './',
+  './index.html',
+  './style.css',
+  './image-assets.js',
+  './sw.js',
+  './manifest.json',
+  './images/help.webp',
+  './images/icon-192.png',
+  './images/icon-512(1).png',
 ];
 
 self.addEventListener('install', (event) => {
